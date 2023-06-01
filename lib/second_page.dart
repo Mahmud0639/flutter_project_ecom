@@ -4,7 +4,9 @@ class SecondPage extends StatelessWidget{
 
   Widget build(BuildContext context){
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: Text("Flutter First App"),
+      ),
       body: Center(
         child: Container(
           child: Text("My Second page.",style: TextStyle(fontSize: 21),),
